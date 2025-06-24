@@ -1,22 +1,28 @@
-# Leviathan Admin Panel Hunter
+# 🐉 Panel Admin Leviathan Hunter
 
-Tools Python untuk mendeteksi halaman login admin tersembunyi secara otomatis.  
-Dirancang oleh **Tn Crow** (TikTok: [@the.crow137](https://tiktok.com/@the.crow137))  
-🔓 Cocok untuk pentester, researcher, dan pecinta dunia cyber.
-
----
-
-## 🔥 Fitur Utama
-- 100+ payload admin panel umum
-- Multi-threading untuk scan cepat
-- Deteksi form login dengan BeautifulSoup
-- Animasi real-time & hasil akhir dalam bentuk tabel
-- Perlindungan anti-rename (harus bernama `leviathan-admin-hunter.py`)
+Alat Python untuk mendeteksi dan memindai panel login admin tersembunyi pada situs web secara akurat dan cepat.  
+Dibuat oleh **Tn Crow**
+info kontak=(https://www.tiktok.com/@the.crow137))
 
 ---
 
-## ⚙️ Instalasi
+## ✨ Fitur Utama
 
-1. **Install semua dependensi:**
+- **100+ Jalur Admin Umum:** Payload disesuaikan berdasarkan level scan (1–10)
+- **Multi-threaded:** Proses scanning cepat dengan multi-threading
+- **Animasi Real-time:** Proses scanning ditampilkan dengan animasi berwarna (kuning)
+- **Tabel Hasil Berwarna:** Hasil scan ditampilkan dalam tabel dengan warna hijau
+- **Perlindungan Anti-Rename:** Tools hanya bisa dijalankan jika nama file tetap `leviathan-admin-hunter.py`
+- **Input Level Scan:** Pengguna dapat menentukan jumlah payload yang di-scan melalui level (1 sampai 10)
+
+---
+
+## ⚡ Instalasi & Menjalankan Langsung
+
+Untuk langsung menggunakan tools ini, cukup copy-paste perintah di bawah ini di terminal:
+
 ```bash
+git clone https://github.com/TnCrow1/leviathan-admin-pemburu.git
+cd leviathan-admin-pemburu
 pip install -r requirements.txt
+python leviathan-admin-hunter.py
